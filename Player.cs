@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FinalHangMan
 {
-    class HangMan
+    class Player
     {
       
        
@@ -16,7 +16,7 @@ namespace FinalHangMan
             public int noWin { get; }
             public int noLoss { get; }
 
-            public HangMan(string initialFirstName, string initialLastName, string initialPostalCode)
+        public Player(string initialFirstName, string initialLastName, string initialPostalCode)
             {
                 firstName = initialFirstName;
                 lastName = initialLastName;

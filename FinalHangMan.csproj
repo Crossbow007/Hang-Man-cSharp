@@ -52,7 +52,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="HangMan.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -82,9 +82,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\AmericanCapter.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\BatMan.png" />
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +92,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Spiderman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YouLose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\youWin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Load.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\First.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Second.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Third.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Five.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AmericanCapter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Load1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
